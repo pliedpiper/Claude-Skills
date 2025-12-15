@@ -77,29 +77,111 @@ If primary sources don't yield enough current results:
 
 ## Output Format
 
-Deliver results in this structure:
+**IMPORTANT:** Always save results to a markdown file in the current working directory.
 
+### File Naming Convention
 ```
-## Trending Sounds This Week
+trending-audio-YYYY-MM-DD.md
+```
+Use today's actual date. Example: `trending-audio-2025-12-15.md`
 
-### 1. [Sound Name]
-**Artist:** [Original artist if applicable]
-**Link:** [URL to sound on TikTok/Instagram]
-**Vibe:** [Category - upbeat/emotional/funny/motivational]
-**Currently used for:** [Brief description of trending usage]
+### Template Rules
 
-**Realtor Adaptation:** [Specific content idea with brief description]
+- Text in `{{PLACEHOLDER}}` must be replaced with actual data
+- All other text is **static** and must appear exactly as shown
+- Include exactly 5-8 sounds, each following the identical format
+- Every sound gets its own `### N. Sound Name` section with the table
+- The Quick Reference table must include one row per sound found
+
+### File Template
+
+Copy this template exactly, replacing only the `{{PLACEHOLDER}}` values:
+
+```markdown
+# Trending Audio for Realtors
+
+**Generated:** {{MONTH}} {{DAY}}, {{YEAR}}
+**Platforms:** TikTok, Instagram Reels, Facebook
 
 ---
-[Repeat for each sound]
-```
 
-## Required Closing Notes
+## Summary
 
-Always include these tips at the end of every response:
+This report contains {{NUMBER}} trending sounds curated for real estate content creators. Sounds are sourced from TikTok, Instagram Reels, and Facebook trends as of {{MONTH}} {{YEAR}}.
+
+---
+
+## Trending Sounds
+
+### 1. {{SOUND_NAME}}
+
+| Field | Details |
+|-------|---------|
+| **Artist** | {{ARTIST_NAME or "Original Sound"}} |
+| **Platform** | {{TikTok / Instagram / Both}} |
+| **Link** | {{URL}} |
+| **Vibe** | {{upbeat / emotional / funny / motivational}} |
+| **Trending Usage** | {{1-2 sentence description}} |
+
+**Realtor Content Idea:** {{Specific content idea for real estate}}
+
+---
+
+### 2. {{SOUND_NAME}}
+
+| Field | Details |
+|-------|---------|
+| **Artist** | {{ARTIST_NAME or "Original Sound"}} |
+| **Platform** | {{TikTok / Instagram / Both}} |
+| **Link** | {{URL}} |
+| **Vibe** | {{upbeat / emotional / funny / motivational}} |
+| **Trending Usage** | {{1-2 sentence description}} |
+
+**Realtor Content Idea:** {{Specific content idea for real estate}}
+
+---
+
+[CONTINUE THIS EXACT FORMAT FOR SOUNDS 3-8]
+
+---
+
+## Quick Reference
+
+| # | Sound | Vibe | Best For |
+|---|-------|------|----------|
+| 1 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
+| 2 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
+| 3 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
+| 4 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
+| 5 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
+[Add rows 6-8 if applicable]
+
+---
+
+## Pro Tips
+
 - Sounds trend for 1-3 weeks typically; act fast on production
 - Save sounds to favorites immediately for later use
 - Check sound usage count—sweet spot is trending but not oversaturated
 - Some sounds are region-locked; test before planning content around them
 - Remix/mashup versions sometimes perform better than originals
-- **Verify links before use**—sound URLs may change or become unavailable; search directly in the app if a link doesn't work
+- **Verify links before use**—sound URLs may change or become unavailable
+
+---
+
+*Report generated on {{MONTH}} {{DAY}}, {{YEAR}}*
+```
+
+### Saving the File
+
+1. Replace all `{{PLACEHOLDER}}` values with actual data
+2. Replicate the sound section format exactly for each sound (5-8 total)
+3. Use the Write tool to save to `trending-audio-YYYY-MM-DD.md`
+4. Confirm the file path to the user after saving
+
+## After Saving
+
+Once the file is saved, inform the user:
+1. The file path where the report was saved
+2. A brief summary of how many sounds were found
+3. Remind them that sound trends change quickly, so they should act on the ideas within 1-2 weeks
