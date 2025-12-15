@@ -1,0 +1,23 @@
+{
+  "name": "realtor-skills",
+  "owner": {
+    "name": "Kaden Barthlome",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Skills for real estate agents and realtors",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "realtor-marketing-skills",
+      "description": "Collection of marketing and optimization skills for real estate agents including social media trending audio discovery and AI/LLM optimization strategies",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/trending-audio-finder-realtor",
+        "./skills/utah-realtor-llmo"
+      ]
+    }
+  ]
+}
