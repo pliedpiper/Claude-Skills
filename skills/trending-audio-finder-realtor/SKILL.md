@@ -1,11 +1,11 @@
 ---
 name: trending-audio-finder-realtor
-description: Find trending audio for TikTok, Instagram Reels, and Facebook. Triggers on "trending sounds", "viral audio", "popular music for reels". Provides curated recommendations with real estate content adaptation ideas.
+description: Find trending audio for TikTok, Instagram Reels, and Facebook. Triggers on "trending sounds", "viral audio", "popular music for reels". Provides complete video briefs with scripts, shot timing, and on-screen text for real estate content.
 ---
 
 # Trending Audio Finder
 
-Find current trending sounds for TikTok, Instagram Reels, and Facebook, with adaptation guidance for real estate content.
+Find current trending sounds for TikTok, Instagram Reels, and Facebook. Generates complete video briefs with scripts, shot-by-shot timing, and on-screen text suggestions tailored for real estate content creators.
 
 ## Workflow
 
@@ -18,6 +18,12 @@ Search queries (run 2-3):
 - "trending tiktok sounds this week [current month year]"
 - "viral instagram reels audio [current month year]"
 - "trending songs for reels [current month year]"
+```
+
+When you find trending sounds, also search for example videos:
+```
+- "[sound name] tiktok trend"
+- "[sound name] viral video example"
 ```
 
 Prioritize results from these reliable sources:
@@ -38,21 +44,24 @@ From search results, identify 5-8 sounds that meet these criteria:
 For each sound, gather:
 - Sound name and original artist (if applicable)
 - Direct link to TikTok/Instagram sound page when available
+- Example video link showing the trend in action (prioritize popular/well-executed examples)
 - Current usage context (what types of videos use it)
 - Vibe/mood category
 
-### Step 3: Generate Realtor Adaptations
+### Step 3: Create Full Video Briefs
 
-For each sound, provide a specific real estate content idea. Consider these content themes:
+For each sound, create a complete video brief that the realtor can immediately use to film. Each brief should include a script, shot timing, and on-screen text.
 
-**First-Time Buyer Focus:**
+**Content Theme Guidelines:**
+
+*First-Time Buyer Focus:*
 - Home tour reveals and reactions
 - "Things I wish I knew" educational content
 - Mortgage/financing tips made simple
 - Move-in day celebrations
 - Before/after transformation reveals
 
-**General Realtor Content:**
+*General Realtor Content:*
 - Day-in-the-life clips
 - Market update snippets
 - Client testimonial moments
@@ -60,12 +69,28 @@ For each sound, provide a specific real estate content idea. Consider these cont
 - Neighborhood highlights
 - Behind-the-scenes showing prep
 
-Match sound vibes to content types:
+**Match sound vibes to content types:**
 - **Upbeat/energetic** → Home tours, open houses, sold celebrations
 - **Emotional/sentimental** → Client stories, move-in days, dream home reveals
 - **Funny/quirky** → Realtor life moments, market commentary, relatable struggles
 - **Motivational** → First-time buyer encouragement, "you can do this" content
 - **Trending dialogue/memes** → Adapt the format with real estate scenarios
+
+**Script Structure (for each sound):**
+
+1. **Hook (0-3 sec):** Attention-grabbing opener—question, bold statement, or visual surprise
+2. **Main Content (3-12 sec):** The core value, story beat, or payoff
+3. **CTA (final 2-3 sec):** What you want viewers to do next (follow, comment, save, DM)
+
+**Shot Timing Guidelines:**
+- Watch the example video to identify beat drops, transitions, or lyric moments
+- Plan shot changes to align with audio beats
+- Note any text reveal timing from popular versions
+
+**On-Screen Text Rules:**
+- Keep text to 3-7 words per screen
+- Use text to reinforce the hook or add context the audio doesn't provide
+- Place text where it won't cover the realtor's face
 
 ### Fallback Strategy
 
@@ -107,7 +132,7 @@ Copy this template exactly, replacing only the `{{PLACEHOLDER}}` values:
 
 ## Summary
 
-This report contains {{NUMBER}} trending sounds curated for real estate content creators. Sounds are sourced from TikTok, Instagram Reels, and Facebook trends as of {{MONTH}} {{YEAR}}.
+This report contains {{NUMBER}} trending sounds with complete video briefs for real estate content. Each sound includes a script, shot-by-shot timing, and on-screen text suggestions ready for filming. Sounds are sourced from TikTok, Instagram Reels, and Facebook trends as of {{MONTH}} {{YEAR}}.
 
 ---
 
@@ -120,10 +145,24 @@ This report contains {{NUMBER}} trending sounds curated for real estate content 
 | **Artist** | {{ARTIST_NAME or "Original Sound"}} |
 | **Platform** | {{TikTok / Instagram / Both}} |
 | **Link** | {{URL}} |
+| **Example Video** | [Watch the trend]({{EXAMPLE_VIDEO_URL}}) |
 | **Vibe** | {{upbeat / emotional / funny / motivational}} |
 | **Trending Usage** | {{1-2 sentence description}} |
 
-**Realtor Content Idea:** {{Specific content idea for real estate}}
+#### Video Concept
+{{1-2 sentence description of the video idea and realtor angle}}
+
+#### Script
+
+| Timing | What to Say/Do | On-Screen Text |
+|--------|----------------|----------------|
+| 0:00-0:03 | **HOOK:** {{Opening action or line}} | {{Text overlay for hook}} |
+| 0:03-0:08 | {{Main content beat 1}} | {{Text overlay}} |
+| 0:08-0:12 | {{Main content beat 2}} | {{Text overlay}} |
+| 0:12-0:15 | **CTA:** {{Closing action or line}} | {{Text overlay for CTA}} |
+
+#### Filming Notes
+{{Any specific tips: location suggestions, props needed, or how to nail the timing}}
 
 ---
 
@@ -134,10 +173,24 @@ This report contains {{NUMBER}} trending sounds curated for real estate content 
 | **Artist** | {{ARTIST_NAME or "Original Sound"}} |
 | **Platform** | {{TikTok / Instagram / Both}} |
 | **Link** | {{URL}} |
+| **Example Video** | [Watch the trend]({{EXAMPLE_VIDEO_URL}}) |
 | **Vibe** | {{upbeat / emotional / funny / motivational}} |
 | **Trending Usage** | {{1-2 sentence description}} |
 
-**Realtor Content Idea:** {{Specific content idea for real estate}}
+#### Video Concept
+{{1-2 sentence description of the video idea and realtor angle}}
+
+#### Script
+
+| Timing | What to Say/Do | On-Screen Text |
+|--------|----------------|----------------|
+| 0:00-0:03 | **HOOK:** {{Opening action or line}} | {{Text overlay for hook}} |
+| 0:03-0:08 | {{Main content beat 1}} | {{Text overlay}} |
+| 0:08-0:12 | {{Main content beat 2}} | {{Text overlay}} |
+| 0:12-0:15 | **CTA:** {{Closing action or line}} | {{Text overlay for CTA}} |
+
+#### Filming Notes
+{{Any specific tips: location suggestions, props needed, or how to nail the timing}}
 
 ---
 
@@ -147,25 +200,42 @@ This report contains {{NUMBER}} trending sounds curated for real estate content 
 
 ## Quick Reference
 
-| # | Sound | Vibe | Best For |
-|---|-------|------|----------|
-| 1 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
-| 2 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
-| 3 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
-| 4 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
-| 5 | {{SOUND_NAME}} | {{VIBE}} | {{One-line content suggestion}} |
+| # | Sound | Vibe | Video Concept | Difficulty |
+|---|-------|------|---------------|------------|
+| 1 | {{SOUND_NAME}} | {{VIBE}} | {{One-line concept}} | {{Easy/Medium/Hard}} |
+| 2 | {{SOUND_NAME}} | {{VIBE}} | {{One-line concept}} | {{Easy/Medium/Hard}} |
+| 3 | {{SOUND_NAME}} | {{VIBE}} | {{One-line concept}} | {{Easy/Medium/Hard}} |
+| 4 | {{SOUND_NAME}} | {{VIBE}} | {{One-line concept}} | {{Easy/Medium/Hard}} |
+| 5 | {{SOUND_NAME}} | {{VIBE}} | {{One-line concept}} | {{Easy/Medium/Hard}} |
 [Add rows 6-8 if applicable]
+
+**Difficulty Key:** Easy = talking head or simple shots | Medium = multiple locations or transitions | Hard = precise timing or props required
 
 ---
 
 ## Pro Tips
 
+**Timing & Trends:**
 - Sounds trend for 1-3 weeks typically; act fast on production
 - Save sounds to favorites immediately for later use
 - Check sound usage count—sweet spot is trending but not oversaturated
 - Some sounds are region-locked; test before planning content around them
 - Remix/mashup versions sometimes perform better than originals
-- **Verify links before use**—sound URLs may change or become unavailable
+
+**Scripting & Filming:**
+- **Watch the example videos** to understand timing, transitions, and format before filming
+- Hook is everything—if the first 2 seconds don't grab attention, viewers scroll
+- Speak faster than feels natural; short-form video rewards quick pacing
+- Film multiple takes and pick the one with the best energy
+- Record in good lighting (natural light near a window works great)
+
+**On-Screen Text:**
+- Add text even if you're talking—many viewers watch on mute
+- Use contrasting colors so text is readable
+- Reveal text in sync with audio beats for professional feel
+
+**Links & Resources:**
+- **Verify links before use**—sound and video URLs may change or become unavailable
 
 ---
 
