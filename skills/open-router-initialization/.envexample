@@ -1,0 +1,21 @@
+# OpenRouter API Configuration
+# =============================
+# Get your API key at: https://openrouter.ai/settings/keys
+
+OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Optional: For OpenRouter leaderboard attribution
+# These headers help your app appear on https://openrouter.ai/rankings
+YOUR_SITE_URL=http://localhost:3000
+YOUR_SITE_NAME=My App
+
+# Optional: Default model (format: provider/model-name)
+# Browse models at: https://openrouter.ai/models
+# OPENROUTER_DEFAULT_MODEL=google/gemini-2.5-flash
+
+# =============================
+# Setup Instructions:
+# 1. Copy this file to .env: cp .envexample .env
+# 2. Replace the OPENROUTER_API_KEY with your real key
+# 3. Make sure .env is in your .gitignore (never commit secrets!)
+# =============================

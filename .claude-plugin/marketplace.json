@@ -1,12 +1,12 @@
 {
-  "name": "realtor-skills",
+  "name": "claude-skills",
   "owner": {
     "name": "Kaden Barthlome",
     "email": ""
   },
   "metadata": {
-    "description": "Skills for real estate agents and realtors",
-    "version": "1.0.0"
+    "description": "Collection of Claude Code skills for various workflows",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -17,6 +17,16 @@
       "skills": [
         "./skills/trending-audio-finder-realtor",
         "./skills/utah-realtor-llmo"
+      ]
+    },
+    {
+      "name": "developer-tools",
+      "description": "General-purpose developer productivity skills for project setup, specification drafting, and API integrations",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/spec-drafter",
+        "./skills/open-router-initialization"
       ]
     }
   ]

@@ -1,0 +1,60 @@
+{
+  "updated": "2025-12",
+  "source": "https://openrouter.ai/models",
+  "rankings": "https://openrouter.ai/rankings",
+  "models": {
+    "google": [
+      { "id": "google/gemini-2.5-flash", "name": "Gemini 2.5 Flash", "tier": "fast", "note": "Most popular" },
+      { "id": "google/gemini-2.5-flash-lite", "name": "Gemini 2.5 Flash Lite", "tier": "fast" },
+      { "id": "google/gemini-2.5-pro-preview", "name": "Gemini 2.5 Pro", "tier": "flagship" },
+      { "id": "google/gemini-2.0-flash", "name": "Gemini 2.0 Flash", "tier": "fast" }
+    ],
+    "anthropic": [
+      { "id": "anthropic/claude-opus-4.5", "name": "Claude Opus 4.5", "tier": "flagship" },
+      { "id": "anthropic/claude-sonnet-4.5", "name": "Claude Sonnet 4.5", "tier": "balanced" },
+      { "id": "anthropic/claude-sonnet-4", "name": "Claude Sonnet 4", "tier": "balanced" },
+      { "id": "anthropic/claude-haiku-4", "name": "Claude Haiku 4", "tier": "fast" }
+    ],
+    "openai": [
+      { "id": "openai/gpt-5", "name": "GPT-5", "tier": "flagship" },
+      { "id": "openai/gpt-4.5-preview", "name": "GPT-4.5 Preview", "tier": "flagship", "context": "128K" },
+      { "id": "openai/gpt-4o", "name": "GPT-4o", "tier": "balanced", "note": "Multimodal" },
+      { "id": "openai/gpt-4o-mini", "name": "GPT-4o Mini", "tier": "fast" },
+      { "id": "openai/o3", "name": "o3", "tier": "reasoning" },
+      { "id": "openai/o3-mini", "name": "o3 Mini", "tier": "reasoning" }
+    ],
+    "meta-llama": [
+      { "id": "meta-llama/llama-4-maverick", "name": "Llama 4 Maverick", "tier": "flagship", "note": "Open source" },
+      { "id": "meta-llama/llama-3.3-70b-instruct", "name": "Llama 3.3 70B", "tier": "balanced", "note": "Open source" },
+      { "id": "meta-llama/llama-3.1-405b-instruct", "name": "Llama 3.1 405B", "tier": "flagship", "note": "Open source" }
+    ],
+    "deepseek": [
+      { "id": "deepseek/deepseek-v3", "name": "DeepSeek V3", "tier": "flagship" },
+      { "id": "deepseek/deepseek-r1", "name": "DeepSeek R1", "tier": "reasoning" },
+      { "id": "deepseek/deepseek-r1:free", "name": "DeepSeek R1 (Free)", "tier": "reasoning", "note": "Free tier" }
+    ],
+    "x-ai": [
+      { "id": "x-ai/grok-4", "name": "Grok 4", "tier": "flagship" },
+      { "id": "x-ai/grok-3", "name": "Grok 3", "tier": "balanced" }
+    ],
+    "mistral": [
+      { "id": "mistralai/mistral-large", "name": "Mistral Large", "tier": "flagship" },
+      { "id": "mistralai/mistral-medium", "name": "Mistral Medium", "tier": "balanced" },
+      { "id": "mistralai/codestral", "name": "Codestral", "tier": "code" }
+    ],
+    "other": [
+      { "id": "qwen/qwen-2.5-72b-instruct", "name": "Qwen 2.5 72B", "tier": "balanced" },
+      { "id": "cohere/command-r-plus", "name": "Command R+", "tier": "enterprise" },
+      { "id": "perplexity/sonar-pro", "name": "Sonar Pro", "tier": "search", "note": "Search-augmented" }
+    ]
+  },
+  "tiers": {
+    "flagship": "Most capable, highest quality",
+    "balanced": "Good balance of quality and cost",
+    "fast": "Optimized for speed and low cost",
+    "reasoning": "Enhanced reasoning/chain-of-thought",
+    "code": "Optimized for code generation",
+    "search": "Integrated web search",
+    "enterprise": "Enterprise-focused features"
+  }
+}
