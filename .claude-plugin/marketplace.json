@@ -26,7 +26,8 @@
       "strict": false,
       "skills": [
         "./skills/spec-drafter",
-        "./skills/open-router-initialization"
+        "./skills/open-router-initialization",
+        "./skills/handoff"
       ]
     }
   ]
